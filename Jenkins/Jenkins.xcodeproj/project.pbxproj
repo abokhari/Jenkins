@@ -277,6 +277,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Applico;
 				TargetAttributes = {
+					5FF717041907113A00B2DBE4 = {
+						DevelopmentTeam = 76Q446F2EP;
+					};
 					5FF7173D1907113B00B2DBE4 = {
 						TestTargetID = 5FF717041907113A00B2DBE4;
 					};
@@ -485,6 +488,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Jenkins/Jenkins-Prefix.pch";
 				INFOPLIST_FILE = "Jenkins/Jenkins-Info.plist";
@@ -505,7 +509,7 @@
 					/usr/lib/libsqlite3.dylib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "FCC6973D-A457-4873-A8AE-AF8AE7BCE3D1";
+				PROVISIONING_PROFILE = "60BC063D-2F73-47BE-9BA6-11D433DA4235";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -515,7 +519,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Applico LLC";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Applico LLC";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Jenkins/Jenkins-Prefix.pch";
@@ -537,7 +541,7 @@
 					/usr/lib/libsqlite3.dylib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "FCC6973D-A457-4873-A8AE-AF8AE7BCE3D1";
+				PROVISIONING_PROFILE = "60BC063D-2F73-47BE-9BA6-11D433DA4235";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -547,6 +551,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Jenkins/Jenkins-Prefix.pch";
 				INFOPLIST_FILE = "Jenkins/Jenkins-Info.plist";
@@ -567,7 +572,7 @@
 					/usr/lib/libsqlite3.dylib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "FCC6973D-A457-4873-A8AE-AF8AE7BCE3D1";
+				PROVISIONING_PROFILE = "60BC063D-2F73-47BE-9BA6-11D433DA4235";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release_Automation;
@@ -651,6 +656,7 @@
 				5FF717541907113B00B2DBE4 /* Release_Automation */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FF717551907113B00B2DBE4 /* Build configuration list for PBXNativeTarget "JenkinsTests" */ = {
 			isa = XCConfigurationList;
@@ -660,6 +666,7 @@
 				5FF717581907113B00B2DBE4 /* Release_Automation */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -18,7 +18,7 @@
 {
 #warning - PLEASE UPDATE THE VALUES IN THE CONSTANTS FILE ACCORDINGLY BEFORE BEGINNING DEVELOPMENT!!
     [TestFlight takeOff:kTestFlightToken];
-    [[LocalyticsSession shared] startSession:kLocalyticsKey];
+//    [[LocalyticsSession shared] startSession:kLocalyticsKey];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
